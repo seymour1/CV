@@ -1,0 +1,190 @@
+\documentstyle[11pt]{article}
+\pagestyle{headings}
+\newcommand{\tab}{\hspace*{3em}}
+\newcommand{\atab}{\hangindent=3em \hangafter=0}
+\newcommand{\btab}{\hangindent=6em \hangafter=0}
+\newcommand{\ctab}{\hangindent=9em \hangafter=0}
+\newcommand{\untab}{\hspace*{-3em}}
+
+\newenvironment{my_list}
+{\begin{itemize}
+    \vspace{-4mm}
+    \setlength{\itemsep}{0pt}
+    \setlength{\itemindent}{6em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}}
+{\end{itemize}}
+
+%% margins
+\oddsidemargin  -0.4in
+\textwidth      7in
+\topmargin  -0.5in
+\headheight 0.0in
+\headsep    0.0in
+\textheight 11.0in
+\pagenumbering{gobble}
+\begin{document}
+
+\centering
+\LARGE \untab John J. Seymour, III\\
+\normalsize
+\medskip
+\untab \untab seymour1@umbc.edu \tab \tab 410-350-4877\\
+\medskip
+\hline
+\bigskip
+
+\raggedright
+\textsc{Research Interests} \tab Malware Analysis, Machine Learning, Quantum Computing\\
+\medskip
+
+\textsc{Education}\\
+\atab \textbf{University of Maryland, Baltimore County (UMBC)}\\
+\btab Ph.D. in Computer Science (Expected Spring 2017)\\
+\ctab Graduate GPA: 4.0/4.0\\
+\btab M.S. in Computer Science (Fall 2014)\\
+\ctab Thesis Title: Quantum Classification of Malware\\
+\btab B.S./B.S./B.A. \emph{cum laude} in Computer Science/Mathematics/Philosophy (Fall 2011)\\
+\btab Certificate of General Honors\\
+\ctab Undergraduate GPA: 3.70/4.00\\
+\bigskip
+
+\begin{tabular}{l p{340pt}}
+%%%%%
+%%Masters Thesis
+%%%%%
+
+%%%%%%%
+%%Research Projects
+%%%%%%%
+
+%\textsc{Current Projects}
+%& \textbf{Future Trends in Malware Toolkits}\\
+%& \hangindent=3em \hangafter=0 Modeling and characterizing current exploit kits for use in predicting future ones.  Advisor: Dr. Charles Nicholas.\\
+
+%& \textbf{Analysis of Chaum's Man-in-the-Middle Detection Protocol}\\
+%& \hangindent=3em \hangafter=0  Evaluation of Chaum's protocol for detecting a man-in-the-middle attack.  Paper to be submitted to USENIX Security 2015.  %Advisor: Dr. Alan Sherman.\\
+
+%& \textbf{Quantum Computation Mathematica Package}\\
+%& \hangindent=3em \hangafter=0  Co-developed Mathematica package with multiple Quantum Computing functions, algorithms, examples, and %documentation to be used by students in future Quantum Computation courses. Advisor: Dr. Samuel Lomonaco.\\
+
+&\\
+
+%%%%%
+%%Conference Presentations
+%%%%%
+\textsc{Notable Publications}
+& John Seymour and Charles Nicholas, ````Quantum" Classification of Malware'', to be presented by John Seymour at DEFCON 23, August 2015.\\ \\
+& John Seymour and Charles Nicholas, ``Overgeneralization in Malware Classification'', Malware Technical Exchange Meeting, June 2015. (poster session)\\ \\
+& John Seymour, ``Overgeneralization in Feature Set Selection for Classification of Malware'', CSEE Technical Report TR-CS-14-06, August 2014.\\ \\
+& Charles Nicholas, Robert Brandon, Joshua Domangue, Andrew Hallemeyer, Peter Olsen, Alison Pfannenstein and John Seymour, ``The Exploit Kit Club'', Malware Technical Exchange Meeting, July 22-24, 2014, Albuquerque, NM.  (poster session)\\ \\
+& Charles Nicholas, Robert Brandon, Andrew Coates, Andrew Hallemeyer, Brian Hillsley, Victoria Lentz, Edward Mukasey, Peter Olsen, Alison Pfannenstein and John Seymour, ``Tracking Exploit Kit Activity Through Landing Page Analysis'', UMBC Computer Science and Electrical Engineering Department Technical Report 14-005, May 7, 2014.\\ \\
+& John Seymour, Joseph Tuzo, and Marie desJardins,``Ant Colony Optimization in a Changing Environment,'' Working Notes of the AAAI Fall Symposium on Complex Adaptive Systems, November 2011.  Presented by John Seymour.\\ \\
+& Joseph Tuzo, John Seymour and Marie desJardins,  ``Using a Cellular Automaton Simulation to Determine an Optimal Lane Changing Strategy on a Multi-lane Highway,'' Working Notes of the AAAI Fall Symposium on Complex Adaptive Systems, November 2011.\\ \\
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Page Two%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagebreak
+\textsc{Work Experience}
+
+\medskip
+\atab \textbf{Army Research Lab}\\
+\btab \textit{Student Intern}, Summer 2014\\
+\begin{my_list}
+\item Researched and presented skew removal techniques for the D-Wave SR10V6 chip using satisfiability problems.
+\item Demonstrated and reduced bias using statistical techniques.
+\item Utilized Python, ToQ, and QSage/Blackbox.
+\end{my_list}
+
+\medskip
+\atab \textbf{University of Maryland, Baltimore County}\\
+\btab \textit{Graduate Research Assistant, UMBC DREAM Lab}, January 2014-Present\\
+\begin{my_list}
+\item Created Bash Scripts and Cron jobs to scrape urlquery.net for links to websites\\ \tab \tab redirecting to exploit kits.
+\item Integrated VirtualBox, Wireshark, Bash and Python scripts, and Suricata to intercept\\ \tab \tab and record all traffic to exploit kit landing pages.
+\end{my_list}
+
+% August 2012 - December 2012: Automata/OOP
+% January 2013 - August 2013: Cryptography
+% August 2013 - December 2013: Computer/Network Security
+\btab \textit{Graduate Teaching Assistant}, August 2012 - December 2013\\
+\begin{my_list}
+\item Teaching Assistant for Network Security, Computer Security, Cryptography,\\ \tab \tab Automata Theory, and Introduction to Object-Oriented Programming.
+\item Introduced students to Metasploit/Kali Linux and theoretical aspects of cybersecurity.
+\end{my_list}
+
+%GRA CDL (pay):
+%Jan 2012 - June 2012: Finin (Voting project): $11/hour
+%Summer 2012, Winter 2012, Summer 2013: SecuEmp
+\btab \textit{Graduate Research Assistant, UMBC Cyber Defense Lab}, January 2012-August 2013\\
+\begin{my_list}
+\item Designed, tested, deployed, and maintained the SecurityEmpire website and game.
+\item Administered Mercurial repository, managed Red Hat server with Apache HTTPD to\\ \tab \tab host project, and developed server-side code using PHP and MySQL.
+\item Managed undergraduate graphic designers and programmers and\\ \tab \tab assisted with HTML, CSS, and Javascript with AJAX.
+\end{my_list}
+
+% Older positions:
+% August to December 2011 - CMSC304 TA
+%	Previous resumes said Spring 2011, don't believe them- that's when I took the course
+% Winter 2010 - Summer 2011 - Student (No records showing any employment. Maybe burnout from grading?)
+% Fall 2010 - Math 100 grading
+% Summer 2010 - Student (No records showing any employment. Maybe getting back from study abroad + no pyxis? Spanish class.)
+% Spring 2010 - Student (Study Abroad)
+% June 2009 through January 2010 - Pyxis ($18 per hour)
+% September 2009 - June 2009 - Math Grading
+% Winter 2008, Summer 2008 - CTI (I think I was officially on payroll during that time too)
+% Summer 2005, 2006, 2007 - BSA
+
+\atab \textbf{Pyxis Engineering/Applied Signals Technology}\\
+\btab \textit{Associate Engineer}, June 2009 - January 2010\\
+\begin{my_list}
+\item Designed, tested, and deployed a Training Request Management System.
+\item Synthesized Java, Spring Web MVC framework, HTML, CSS, Javascript, JUnit,\\ \tab \tab MySQL, Apache Maven, and Apache Tomcat.
+\item Utilized Agile development process.
+\end{my_list}
+\medskip
+
+\begin{tabular}{l p{340pt}}
+
+%%%%%
+%%Study Abroad
+%%%%%
+\textsc{Study Abroad} & \textbf{University of Bristol}, UK, Spring 2010\\
+& \hangindent=3em \hangafter=0  Applied and was accepted into University of Bristol's Mathematics department through direct enrollment.  Successfully completed maximum number of credit points (60) of senior course equivalents, including Computational Complexity, Quantum Mechanics, Mathematical Logic, and Algebraic Number Theory.\\
+& \\
+
+%%%%%%%
+%%Honors and awards
+%%%%%%%
+\textsc{Honors and Awards} & President's List (4.0 GPA): Spring-Summer 2009, Summer 2010-Present\\
+%& President's Premier Scholarship recipient\\
+& Eagle Scout, Boy Scouts of America\\
+& \\
+
+%%%%%%
+%%Activities
+%%%%%%
+%\textsc{Activities and Service} & Member, UMBC Fencing Club (Fall 2007 - Present)\\
+%&Member, UMBC Fencing Competitive Team (Fall 2008-2012)\\
+%& Assistant Scoutmaster, BSA Troop 649 (Summer 2007 - Fall 2011)\\
+%& Member, UMBC Putnam Team (Fall 2008-2011)\\
+%& Member/Leader, InterVarsity at UMBC (Fall 2007 - Spring 2010)\\
+%& Coordinator, UMBC Capture the Flag (Fall 2009-2010)\\
+%& Member, Computer Science Council of Majors (Spring 2008-2009)\\
+%& Volunteer, Cold Weather Shelter, CMPC (Winter 2006 - Present)\\
+%& \\
+
+%%%%%%%
+%%Affiliations
+%%Consider adding IEEE, ACM, and IEET
+%%%%%%%
+%\textsc{Affiliations}
+%& Technological Associations: IEEE, ACM, AAAS\\
+%& UMBC Alumni Association\\
+%& UMBC Honors College\\
+%& Omicron Delta Kappa, a National Leadership Honor Society\\
+%& Pi Mu Epsilon, a Mathematics Honors Fraternity\\
+%& United States Fencing Association\\
+%& National Eagle Scout Association\\
+\end{tabular}
+\end{document}
